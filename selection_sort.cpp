@@ -1,5 +1,8 @@
 #include <iostream>
 #include<array>
+
+//Time Complexity	𝑂(𝑛2) for all cases
+//Space complexity O(1)
 int* selection_sort(int input_array[], int array_size) {
     for (int i = 0; i < array_size - 1; i++) {
         for (int j = i + 1; j < array_size; j++) {

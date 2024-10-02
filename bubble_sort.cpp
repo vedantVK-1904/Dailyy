@@ -19,10 +19,7 @@ std::array<int, 10> bubble_sort(std::array<int, 10> Arr)
         {
             if (Arr[j] > Arr[j + 1])
             {
-
-                int temp = Arr[j];
-                Arr[j] = Arr[j + 1];
-                Arr[j + 1] = temp;
+                std::swap(Arr[j], Arr[j + 1]);
             }
         }
     }
